@@ -1,0 +1,15 @@
+TP . . DL . . . TP . . . DL . . TP
+. DP . . . TL . . . TL . . . DP .
+. . DP . . . DL . DL . . . DP . .
+DL . . DP . . . DL . . . DP . . DL
+. . . . DP . . . . . DP . . . .
+. TL . . . TL . . . TL . . . TL .
+. . DL . . . DL . DL . . . DL . .
+TP . . DL . . . ✴ . . . DL . . TP
+. . DL . . . DL . DL . . . DL . .
+. TL . . . TL . . . TL . . . TL .
+. . . . DP . . . . . DP . . . .
+DL . . DP . . . DL . . . DP . . DL
+. . DP . . . DL . DL . . . DP . .
+. DP . . . TL . . . TL . . . DP .
+TP . . DL . . . TP . . . DL . . TP
