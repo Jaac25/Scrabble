@@ -825,14 +825,7 @@ class Management
         best_move = node
         best_score = bot ? 1000 : -1000
         winners = getWinners()
-        # puts depth
         if (winners.length == 1 || fullBoard() || @finish || depth == movements.length)
-            # if winners[0].name == $players[player].name
-            #     best_score = 1000
-            # else
-            #     best_score = -1000
-            # end
-            # puts "Score: #{best_score}"
             return [best_score, movements[0]]
         end
         
@@ -908,7 +901,6 @@ class Management
     def getPossibleMovements(atril, turn, player)
         words = generateWords(atril)
         movements = []
-        foundWord = false
         words.each do |palabra|
             word = palabra[0]
             for i in 0..word.length-1 do
@@ -991,11 +983,6 @@ class Management
                     letter = word[numberOfLetters]
                     numberOfLetters = numberOfLetters + 1
                     if (letter != word[j])
-                        # puts "-#{letter}-"
-                        # puts "J: #{j}"
-                        # puts "NumberOfLetters: #{numberOfLetters}"
-                        # puts "Word: #{word}"
-                        puts "EORDLETRA: #{word[numberOfLetters]}"
                         valueOfLetter = getValueOfTokenBySymbol(letter)
                         if token[0] == "DL"
                             valueOfLetter = valueOfLetter * 2
